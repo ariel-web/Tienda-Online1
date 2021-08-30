@@ -1,0 +1,156 @@
+color1 = #00A3A6
+color2 = #E02F35
+color3 = #F0F2F7
+color4 = #2DB0C0
+color5 = #373F42
+color6 = rgba(254, 7, 3, 0.234);
+
+body
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    background-color: color3
+
+h2,h3,h4,h5,ul,body,html
+    padding: 0px
+    margin: 0px
+
+.mtop16
+    margin-top 16px
+.wrapper
+    min-height: 100vh
+    overflow: hidden
+    .col1
+        float: left
+        position: relative
+        z-index: 999
+        width: 17%
+    .col2
+        float: left
+        width: 83%
+    .sidebar
+        background-color: color5
+        min-height: 100vh
+        color: color3
+        .section-top
+            .logo
+                width: 90%
+                img
+                width: 100%
+                margin-left: 10px
+            .user
+                margin-top: -10px
+                display: flex
+                height: 40px
+                width: 100%
+                .namePerfil  
+                    margin-left: 10px
+                    display flex
+                    height: 40px
+                    width: 40px
+                    border-radius: 50%
+                    background-color: color4
+                    align-items: center
+                    justify-content: center
+                    font-size: 22px
+                .datos
+                    margin-top: 0px
+                    height: 100%
+                    justify-content: center
+                    margin-left: 7px
+                    .name
+                        font-size: 16px
+                    .email
+                        margin-top: -2px
+                        font-size: 13px
+            hr.hr3 
+                background-color: color3
+                height: 0.5px
+
+        .main
+            ul  
+                li
+                    margin-bottom: 4px
+                    a
+                        text-decoration: none
+                        color color3 !important    
+                        display: block
+                        font-size: 1.1em
+                        padding: 12px 16px
+                        i
+                            width: 25px
+                            font-size: 18px
+                            margin-right: 10px
+                        &:hover
+                            background-color: color1
+                            color: color3 !important   
+
+            hr.hr3 
+                background-color: color3
+                height: 0.5px
+    
+.navbar
+    height: 60px
+    background-color: color5
+    box-shadow: none !important
+    a
+        color: color3 !important
+
+.page
+    padding-top: 16px
+    padding-bottom: 16px  
+ 
+    .breadcrumb
+        background-color:white
+        color: color1
+        box-shadow 0 0.5rem 1rem rgba(0, 0, 0, 0.10) !important
+        .breadcrumb-item
+            a   
+                color: color1
+                font-weight: bold
+                font-size: 1.1em
+                &:hover
+                    text-decoration: none !important
+                    
+    .panel
+        background-color: white !important
+        border-radius 6px
+        border-bottom: 3px solid color5
+        width 100%
+        .header 
+            border-bottom: 1px solid color4 
+            h2.title
+                display: inline-block
+                color: color5
+                font-size: 1.1em
+                padding 12px 16px
+        .inside
+            padding 16px
+            .nav
+                .nav-link
+                    border-bottom 2px solid color1
+                    color: color1
+                    margin-right:10px
+                    border-radius: 0px
+                    padding: 5px
+                    &:hover
+                        border-color: color2
+            .input-group
+            .form-control
+                &:focus
+                &:active
+                    outline: none
+                    box-shadow: none
+                
+
+
+.opts
+    a
+        border-radius: 4px
+        border: 1px solid color3
+        display: inline-block
+        padding: 5px 10px
+        margin-right: 10px 
+        .edit
+            color: color4
+        .delete
+            color: color2
